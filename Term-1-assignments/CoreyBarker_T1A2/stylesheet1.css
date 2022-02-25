@@ -24,7 +24,7 @@ body {
 nav {
     display: flex;
     box-sizing: border-box;
-    width: 100%;
+    width: 94%;
     justify-content: space-between;
     background-color: white;
     overflow: hidden;
@@ -61,11 +61,13 @@ article {
 }
 
 .container {
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
 }
 
 .me {
+    display: flex;
+    flex-direction: column;
     width: 40%;
 }
 .menubar {
@@ -129,4 +131,9 @@ footer {
     display: flex;
     justify-content: center;
     align-items: flex-end;
+}
+
+@media screen and (min-width: 401px)
+{
+    
 }
