@@ -8,10 +8,20 @@ html {
 }
 body {
     height:  100%;
-    padding: 0.5rem 3rem
+    padding: 0.5rem 3rem;
 }
-main article section {
-    
+
+.parallax {
+    background-image: url("IMG/main.JPG");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main, article, section {
+    height: 1;
 }
 
 main {
@@ -24,29 +34,46 @@ nav {
     display: flex;
     position: fixed;
     width: 100%;
-    height: 3rem;
+    height: 4rem;
     align-items: center;
     justify-content: space-between;
     background-color: white;
     overflow: hidden;
-    
     top: 0;
     align-items: center;
 
 }
 
-.parallax {
-    background-image: url("IMG/main.JPG");
-    height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.menubar:hover {
+    opacity: 0.3;
+}
+
+.menubar {
+    border-radius: 25%;
+    padding: 0 0.5rem;
+}
+
+.a {
+    width: 35px;
+    height: 5px;
+    margin: 6px 0;
+    background: transparent;
+    background-color: black;
+}
+
+.box {
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .container1 {
-    padding: 4rem;
+    padding-bottom: 5rem;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
 }
 
@@ -60,11 +87,12 @@ nav {
 
 .me {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
 }
 
 #links {
-    padding: 3rem;
+    padding-bottom: 3rem;
     height: 2%;
 }
 
@@ -110,3 +138,14 @@ footer {
     align-items: flex-end;
 }
 
+@media screen and (min-width: 900px) { 
+    .container1, .me {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-device-width: 900px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}

@@ -17,6 +17,15 @@ body {
     padding: 0.5rem 5rem
 }
 
+.parallax {
+    background-image: url("IMG/main.JPG");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .home {
     font-family: "Oswald";
     
@@ -36,14 +45,6 @@ nav {
     
 }
 
-.parallax {
-    background-image: url("IMG/main.JPG");
-    height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 .box {
     display: flex;
