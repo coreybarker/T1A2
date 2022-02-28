@@ -8,7 +8,7 @@ html {
 }
 body {
     height:  100%;
-    padding: 0.5rem 3rem;
+    padding: 0.5rem 5rem;
 }
 
 .parallax {
@@ -30,7 +30,7 @@ main {
     align-content: space-between;
 }
 nav {
-    padding-right: 6rem;
+    padding-right: 10rem;
     display: flex;
     position: fixed;
     width: 100%;
@@ -69,8 +69,28 @@ nav {
     justify-content: space-between;
 }
 
+#skillsbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+#interestsbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .container1 {
     padding-bottom: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container2 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -81,11 +101,8 @@ nav {
     padding: 1rem;
 }
 
-.me:hover {
-    opacity: 0.7;
-}
-
-.me {
+.skills, .interests {
+    padding-bottom: 5rem;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -139,7 +156,7 @@ footer {
 }
 
 @media screen and (min-width: 900px) { 
-    .container1, .me {
+    .container1, .skills, .container2, .interests {
         width: 45%;
     }
 }
