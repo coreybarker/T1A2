@@ -119,7 +119,7 @@ nav {
 }
 
 #links {
-    padding-bottom: 3rem;
+    /* padding-bottom: 3rem; */
     height: 2%;
 }
 
@@ -127,7 +127,7 @@ nav {
     display: flex;
     height: 10rem;
     justify-content: center ;
-    align-items: center;
+    align-items: flex-end;
 
 }
 
@@ -159,7 +159,7 @@ nav {
 }
 
 footer {
-    padding-top: 1rem;
+    padding-top: 2rem;
     display: flex;
     justify-content: center;
     align-items: flex-end;
