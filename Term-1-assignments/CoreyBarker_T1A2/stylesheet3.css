@@ -8,17 +8,17 @@ html {
 }
 body {
     height:  100%;
-    padding: 0.5rem 5rem;
+    padding: 0.5rem 3rem;
 }
 
-.parallax {
+/* .parallax {
     background-image: url("IMG/main.JPG");
     height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 
 main, article, section {
     height: 1;
@@ -30,7 +30,7 @@ main {
     align-content: space-between;
 }
 nav {
-    padding-right: 10rem;
+    padding-right: 6rem;
     display: flex;
     position: fixed;
     width: 100%;
@@ -89,28 +89,36 @@ nav {
 } */
 
 .box {
-    padding: 5rem 0;
+    padding-top: 5rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-#skillsbox {
+/* .b1, .b2 {
     display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+#blog1, #blog2, #blog3, #blog4, #blog5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
 
 }
 
-#interestsbox {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+#ipad3 {
+    width: 100%;
 }
 
 .container1 {
-    padding-bottom: 5rem;
+    /* padding-bottom: 5rem; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -118,25 +126,26 @@ nav {
 }
 
 .container2 {
+    
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-.heading {
+.heading, .heading2 {
     padding: 1rem;
 }
 
-.skills, .interests {
-    padding-bottom: 5rem;
+.img1, .img2, .img3, .img4, .img5 {
+    padding: 2.5rem 0;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
 }
 
 #links {
-    padding-bottom: 3rem;
+    /* padding-bottom: 3rem; */
     height: 2%;
 }
 
@@ -182,14 +191,34 @@ footer {
     align-items: flex-end;
 }
 
-@media screen and (min-width: 900px) { 
-    .container1, .skills, .container2, .interests {
+/* @media screen and (min-width: 700px) { 
+    .container1, .container2, .img1, .img2, .img3, .img4, .img5 {
         width: 45%;
+    } */
+
+@media screen and (min-width:700px) {
+    #ipad1, #ipad2, #ipad3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
 }
 
-@media only screen and (max-device-width: 900px) {
-  .parallax {
-    background-attachment: scroll;
-  }
+@media screen and (min-width:700px){
+    .blog1, .blog2, .blog3, .blog4 {
+        padding: 1rem 1rem;
+    }
+}
+
+@media screen and (min-width:700px) and (max-width:900px) {
+    #ipad3 { 
+        padding: 0 9rem;
+    }
+}
+@media screen and (min-width:1550px) {
+    .desktop1, .desktop2 {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
 }

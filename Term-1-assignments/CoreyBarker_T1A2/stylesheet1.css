@@ -38,28 +38,55 @@ nav {
     align-items: center;
     justify-content: space-between;
     background-color: white;
-    overflow: hidden;
+    /* overflow: hidden; */
     top: 0;
     align-items: center;
 
 }
 
-.menubar:hover {
+.fa-bars:hover {
     opacity: 0.3;
 }
 
-.menubar {
-    border-radius: 25%;
-    padding: 0 0.5rem;
+.fa-bars {
+    font-size: xx-large;
+    cursor: pointer;
 }
 
-.a {
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.menubar-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.menubar-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.menubar-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .menubar-content {
+  display: block;
+}
+
+/* .a {
     width: 35px;
     height: 5px;
     margin: 6px 0;
     background: transparent;
     background-color: black;
-}
+} */
 
 .box {
     padding: 5rem 0;
@@ -105,7 +132,7 @@ nav {
 }
 
 .fa {
-    padding: 0 1.2rem ;
+    padding: 1rem 1rem ;
     text-align: center;
     text-decoration: none;
     border-radius: 25%;
