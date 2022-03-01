@@ -8,7 +8,7 @@ html {
 }
 body {
     height:  100%;
-    padding: 0.5rem 5rem;
+    padding: 0.5rem 3rem;
 }
 
 .parallax {
@@ -30,7 +30,7 @@ main {
     align-content: space-between;
 }
 nav {
-    padding-right: 10rem;
+    padding-right: 6rem;
     display: flex;
     position: fixed;
     width: 100%;
