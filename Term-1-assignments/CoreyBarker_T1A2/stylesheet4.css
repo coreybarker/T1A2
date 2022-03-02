@@ -115,7 +115,6 @@ nav {
 }
 
 .socials {
-    padding-top: 4rem;
     width: 100vw;
     display: flex;
     justify-content: space-around;
@@ -140,6 +139,12 @@ nav {
     padding-left: 2rem;
     display: flex;
     /* align-content: flex-start; */
+}
+
+b {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #links {
@@ -205,19 +210,14 @@ footer {
 
 @media screen and (min-width: 400px) { 
     #socialsbox {
+        padding-top: 3rem;
         display: flex;
+        justify-content: space-between;
         
     }
 
-    b ul:nth-last-of-type(3) {
-        padding-top: 1.5rem;
-    }
-    b ul:nth-of-type(2) {
-        padding: 3rem 0;
-    }
     .socials {
         width: 20%;
-        padding-top: 1rem;
         height: 100%;
         flex-direction: column ;
         align-content: space-between;
