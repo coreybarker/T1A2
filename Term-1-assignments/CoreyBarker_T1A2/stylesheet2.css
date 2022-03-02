@@ -11,6 +11,10 @@ body {
     padding: 0.5rem 3rem;
 }
 
+h1, h2, h3, h4 {
+    font-family: "Oswald" ;
+}
+
 .parallax {
     background-image: url("IMG/mainpersonal.png");
     height: 100%;

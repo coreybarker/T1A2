@@ -11,6 +11,10 @@ body {
     padding: 0.5rem 3rem;
 }
 
+h1, h2, h3, h4 {
+    font-family: "Oswald" ;
+}
+
 .parallax {
     background-image: url("IMG/mainblog.png");
     height: 100%;
@@ -80,41 +84,47 @@ nav {
   display: block;
 }
 
-/* .a {
-    width: 35px;
-    height: 5px;
-    margin: 6px 0;
-    background: transparent;
-    background-color: black;
-} */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+.content {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
 
 .box {
     padding-top: 5rem;
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
-/* .b1, .b2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
 
 
 #blog1, #blog2, #blog3, #blog4, #blog5 {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
 
-}
-
-#ipad3 {
-    width: 100%;
 }
 
 .container1 {
@@ -180,9 +190,6 @@ nav {
     color: white;
 }
 
-#grow-span {
-    flex-grow: 1;
-}
 
 footer {
     padding-top: 2rem;
@@ -191,34 +198,34 @@ footer {
     align-items: flex-end;
 }
 
-/* @media screen and (min-width: 700px) { 
-    .container1, .container2, .img1, .img2, .img3, .img4, .img5 {
-        width: 45%;
-    } */
+@media screen and (max-width: 800px) {
+    #mobhide {
+        display: none;
+    }
+}
+@media screen and (min-width: 800px) {
+    .container1, .container2 {
+        width: 70%;
+        padding: 0 3rem;
+    }
+    
+}
 
-@media screen and (min-width:700px) {
-    #ipad1, #ipad2, #ipad3 {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
+@media screen and (min-width: 800px) {
+    .img1, .img2, .img3, .img4, .img5 {
+        width: 50%
     }
 }
 
-@media screen and (min-width:700px){
-    .blog1, .blog2, .blog3, .blog4 {
+@media screen and (min-width:800px){
+    .blog1, .blog2, .blog3, .blog4, .blog5 {
         padding: 1rem 1rem;
+        display: flex;
     }
 }
 
-@media screen and (min-width:700px) and (max-width:900px) {
-    #ipad3 { 
-        padding: 0 9rem;
-    }
-}
-@media screen and (min-width:1550px) {
-    .desktop1, .desktop2 {    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    }
+@media only screen and (max-device-width: 900px) {
+  .parallax {
+    background-attachment: scroll;
+  }
 }
