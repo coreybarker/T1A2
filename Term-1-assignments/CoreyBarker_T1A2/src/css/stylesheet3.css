@@ -18,7 +18,7 @@ h1, h2, h3, h4 {
 p {
     font-family: sans-serif;
 }
-
+/* parallax component  */
 .parallax {
     background-image: url("../IMG/mainblog.png");
     height: 100%;
@@ -27,6 +27,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
 }
+/* parallax component  */
 
 main, article, section {
     height: 1;
@@ -37,6 +38,7 @@ main {
     flex-direction: column;
     align-content: space-between;
 }
+/* fixed navbar and drop down component  */
 nav {
     padding-right: 10rem;
     display: flex;
@@ -87,6 +89,7 @@ nav {
 .dropdown:hover .menubar-content {
   display: block;
 }
+/* fixed navbar and drop down component  */
 
 /* collapse component */
 .collapsible {
@@ -113,6 +116,7 @@ nav {
   transition: max-height 0.2s ease-out;
 }
 /* collapse component */
+
 .box {
     padding-top: 5rem;
     display: flex;
@@ -159,6 +163,7 @@ nav {
     width: 100%;
 }
 
+/* Links component  */
 #links {
     /* padding-bottom: 3rem; */
     height: 2%;
@@ -194,7 +199,7 @@ nav {
     background: #0077b7;
     color: white;
 }
-
+/* links component  */
 
 footer {
     padding-top: 2rem;
