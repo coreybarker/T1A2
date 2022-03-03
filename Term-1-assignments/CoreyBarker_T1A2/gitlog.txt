@@ -1,3 +1,87 @@
+commit 6bb6ea1e5ace80dc1775bda73920a166ebda4a1e
+Author: coreybarker <cozybarker@gmail.com>
+Date:   Thu Mar 3 15:52:53 2022 +1100
+
+    components labelled and website 95% done
+
+commit 3e47b258c8b572cfd0af9fd93c89d1b1d8ae9569
+Author: coreybarker <cozybarker@gmail.com>
+Date:   Thu Mar 3 14:43:40 2022 +1100
+
+    directory fixes
+
+commit d3f53249565867c97e11336cb54f217cf750f24a
+Author: coreybarker <cozybarker@gmail.com>
+Date:   Wed Mar 2 17:40:54 2022 +1100
+
+    Home and personal pages, writing complete, Images for blogs and resume still to complete
+
+commit d0753bb5b2899d9ae4c48674e4b6d1e7f2f4e8b1
+Author: coreybarker <cozybarker@gmail.com>
+Date:   Wed Mar 2 14:56:31 2022 +1100
+
+    Main structure and links complete except resume. Photos and writing to be finished
+
+commit 6747b91145fc36fcf906afe3aafe9b3c88fa80fd
+Author: coreybarker <cozybarker@gmail.com>
+Date:   Wed Mar 2 13:05:26 2022 +1100
+
+    website responsiveness complete, small changes to be made to finish
+
+commit 15ff2484c582fbfdfd0a9fe6484cea0a15ac66b9
+Author: coreybarker <cozybarker@gmail.com>
+Date:   Tue Mar 1 18:13:04 2022 +1100
+
+    parallax pictures updated
+
+commit f5c8adb47a36ccf2c511e8f729acbee19713b9aa
+Author: coreybarker <cozybarker@gmail.com>
+Date:   Tue Mar 1 17:34:59 2022 +1100
+
+    contact icons made responsive with text hiding at mobile view
+
+commit e6376ba213b9a07f72c24cf8b8196126a987e65b
+Author: coreybarker <cozybarker@gmail.com>
+Date:   Tue Mar 1 15:00:43 2022 +1100
+
+    personal page mobile view almost done + social link icons displayed
+
+commit df01c16d752c84ceebd374888cc2efbddb47dc5f
+Author: coreybarker <cozybarker@gmail.com>
+Date:   Tue Mar 1 12:44:22 2022 +1100
+
+    Fixed dropdown menu funtionality and styling
+
+commit 77320bdd68d46f49ca77e2a215a9582a93d19b26
+Author: coreybarker <cozybarker@gmail.com>
+Date:   Mon Feb 28 11:19:06 2022 +1100
+
+    Personal page and style sheet reponsiveness and styling updated
+
+commit df75c083f93b81ca7a7554079ff128dc7b12e8c9
+Author: coreybarker <cozybarker@gmail.com>
+Date:   Mon Feb 28 10:45:01 2022 +1100
+
+    resolved parallax issues and responsiveness
+
+commit 6481a35e90a5c987d7fb404f55a3782ea33a6239
+Author: coreybarker <cozybarker@gmail.com>
+Date:   Fri Feb 25 17:14:26 2022 +1100
+
+    fixed navbar and added hover feature to resume image
+
+commit e9506d019a92236299a3b1c1627de036a8ba6fdd
+Author: coreybarker <cozybarker@gmail.com>
+Date:   Fri Feb 25 16:26:06 2022 +1100
+
+    new style sheet working on mobile arrangment first
+
+commit 92bd50ac064768dbd4e779b3ca27560f6e92c4eb
+Author: coreybarker <cozybarker@gmail.com>
+Date:   Fri Feb 25 14:15:44 2022 +1100
+
+    home page start
+
 commit e4d172968a4ccf71e9f09928a8e88fe224c27903
 Author: coreybarker <cozybarker@gmail.com>
 Date:   Wed Feb 16 14:46:43 2022 +1100
