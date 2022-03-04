@@ -33,5 +33,24 @@ Home, Personal, Blog & Contact pages link to each other as well as to Github and
 
 ## Screenshots
 
-![Homepage](docs/)
+![Homepage](docs/ss1.jpg)
+![Homepage dark mode](docs/ss2.jpg)
+![Personalpage](docs/ss3.jpg)
+![Blogpage](docs/ss5.jpg)
+![iPadBlogpage2](docs/ss8.jpg)
+![Contactpage](docs/ss6.jpg)
+![iPhoneContactpage](docs/ss9.jpg)
 
+---
+
+## Target Audience
+
+The target audience for this website is future employers, IT professionals and future clients.
+
+---
+
+## Tech Stack
+
+I've used a combination of HTML and CSS to deisgn and construction my website. I used small amounts of Javascript to add extra features that HTML and CSS couldn't otherwise achieve.
+
+I will be using Netlify to deploy my website.
