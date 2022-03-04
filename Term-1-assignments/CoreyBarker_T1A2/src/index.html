@@ -20,6 +20,23 @@
         <!-- fixed navbar and drop down component -->
         <nav>
             <h1 id="coreybarker">Corey Barker | Home</h1>
+
+            <div class="toggle">
+                <input type="checkbox" class="checkbox" id="checkbox">
+                <label for="checkbox" class="label">
+                    <i class="fas fa-moon"></i>
+                    <i class='fas fa-sun'></i>
+                    <div class='ball'></div>
+                </label>
+            </div>
+            
+            <script>
+                const checkbox = document.getElementById('checkbox');
+
+                checkbox.addEventListener('change', ()=>{
+                document.body.classList.toggle('dark');
+                })
+            </script>
         
             <div class="dropdown">
             <i class="fa-solid fa-bars"></i>
@@ -50,8 +67,9 @@
             </a>
         <!-- resume component -->
          </div>
-        
+    </main>   
 <!-- links component  -->
+    <footer>
         <section id="links">
             <div class="findme">
                 <h3>Find Me:</h3>
@@ -61,9 +79,7 @@
             </div>
         </section>
 <!-- links component  -->
-    </main>
-  
-    <footer>
+
         ©Corey Barker 2022
      </footer>
 

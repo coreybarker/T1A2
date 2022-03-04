@@ -27,11 +27,11 @@ My sites features are spread across 4 pages linked together.
 
 Home, Personal, Blog & Contact pages link to each other as well as to Github and LinkedIn. Personal links to my resume and Contact links to my email, website homepage and a phone call.
 
-![Sitemap](./doc/../docs/sitemap.png)
+![Sitemap](docs/sitemap.png)
 
 ---
 
-## Wireframes
+## Screenshots
 
-
+![Homepage](docs/)
 
