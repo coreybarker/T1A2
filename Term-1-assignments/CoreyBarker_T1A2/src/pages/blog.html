@@ -1,182 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog</title>
-    <link rel="stylesheet" href="../css/stylesheet3.css"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Oswald:wght@600&family=Rubik&display=swap"/>
-    <script src="https://kit.fontawesome.com/49dd2749bc.js" crossorigin="anonymous"></script>
-</head>
-<body>
-<!-- parallax component  -->
-<div class="parallax"></div>  
-<!-- parallax component    -->
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡️</text></svg>"
+    />
+    <link rel="stylesheet" href="../css/stylesheet3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Oswald:wght@600&family=Rubik&display=swap"
+    />
+    <script
+      src="https://kit.fontawesome.com/49dd2749bc.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="../js/app.js"></script>
+  </head>
+  <body class="dark-enabled">
+    <!-- parallax component  -->
+    <div class="parallax"></div>
+    <!-- parallax component    -->
     <main>
- <!-- Fixed navbar and Drop down component -->
-        <nav>
-            <h1 id="coreybarker">Corey Barker | Blog</h1>
+      <!-- Fixed navbar and Drop down component -->
+      <nav id="app-nav" class="dark-enabled">
+        <h1 id="coreybarker">Corey Barker | Blog</h1>
 
-        <!-- Dark theme component toggle  -->    
-            <div class="toggle">
-                <input type="checkbox" class="checkbox" id="checkbox">
-                <label for="checkbox" class="label">
-                    <i class="fas fa-moon"></i>
-                    <i class='fas fa-sun'></i>
-                    <div class='ball'></div>
-                </label>
-            </div>
-            
-            <script>
-                const checkbox = document.getElementById('checkbox');
-
-                checkbox.addEventListener('change', ()=>{
-                document.body.classList.toggle('dark');
-                })
-            </script>
-        <!-- Dark theme component toggle  -->  
-          
-        <div class="dropdown">
-            <i class="fa-solid fa-bars"></i>
-            <div class="menubar-content">
-                <a href="../index.html">Home</a>
-                <a href="personal.html">Personal</a>
-                <a href="blog.html">Blog</a>
-                <a href="contact.html">Contact</a>
-            </div>
+        <!-- Dark theme component toggle  -->
+        <div class="toggle">
+          <input type="checkbox" class="checkbox" id="checkbox" />
+          <label for="checkbox" class="label">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <div class="ball"></div>
+          </label>
         </div>
-        </nav>
-<!-- Fixed navbar and Drop down Component -->
+        <!-- Dark theme component toggle  -->
 
-<!-- collapse component -->
-    <div id="mobhide">
+        <div class="dropdown">
+          <i class="fa-solid fa-bars"></i>
+          <div class="menubar-content">
+            <a href="../index.html">Home</a>
+            <a href="personal.html">Personal</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+      </nav>
+      <!-- Fixed navbar and Drop down Component -->
+
+      <!-- collapse component -->
+      <div id="mobhide">
         <button type="button" class="collapsible">Blog 1</button>
-            <div class="content">
-            <p>Publish date: 27th Jan 2020</p>
-            </div>
+        <div class="content">
+          <h3>Publish date: 27th Jan 2020</h3>
+        </div>
 
         <button type="button" class="collapsible">Blog 2</button>
-            <div class="content">
-            <p>Publish date: 2nd Nov 2018</p>
-            </div>
-        
+        <div class="content">
+          <h3>Publish date: 2nd Nov 2018</h3>
+        </div>
+
         <button type="button" class="collapsible">Blog 3</button>
-            <div class="content">
-            <p>Publish date: 15th Jun 2022</p>
-            </div>
+        <div class="content">
+          <h3>Publish date: 15th Jun 2022</h3>
+        </div>
 
         <button type="button" class="collapsible">Blog 4</button>
-            <div class="content">
-            <p>Publish date: 1st Feb 2022</p>
-            </div>
+        <div class="content">
+          <h3>Publish date: 1st Feb 2022</h3>
+        </div>
 
         <button type="button" class="collapsible">Blog 5</button>
-            <div class="content">
-            <p>Publish date: 22nd Jan 2015</p>
-            </div>
+        <div class="content">
+          <h3>Publish date: 22nd Jan 2015</h3>
+        </div>
 
         <script>
-            var coll = document.getElementsByClassName("collapsible");
-            var i;
+          var coll = document.getElementsByClassName("collapsible");
+          var i;
 
-            for (i = 0; i < coll.length; i++) {
-            coll[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                var content = this.nextElementSibling;
-                if (content.style.maxHeight){
+          for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+              this.classList.toggle("active");
+              var content = this.nextElementSibling;
+              if (content.style.maxHeight) {
                 content.style.maxHeight = null;
-                } else {
+              } else {
                 content.style.maxHeight = content.scrollHeight + "px";
-                }
+              }
             });
-            }
+          }
         </script>
-    </div>    
-<!-- collapse component -->
+      </div>
+      <!-- collapse component -->
 
-        <div class="box">
-                    <section class="blog1">
-                        <img class="img1" src="../IMG/internet.png" alt=""/>
+      <div class="box">
+        <section class="blog1">
+          <img class="img1" src="../IMG/internet.png" alt="" />
 
-                        <article class="container1">
-                            <div class="heading">
-                            <h1>Blog 1</h1>
-                            </div>
-                    
-                            <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aspernatur dolor ea consectetur asperiores reiciendis qui? Omnis voluptates ipsum, reiciendis sed excepturi ut voluptatem incidunt accusantium, soluta animi voluptas repellendus!
-                            </p>
-                        </article>
-
-                    </section>
-
-                    <section class="blog2">
-                        <img class="img2" src="../IMG/ruby.jpeg" alt=""/>
-
-                        <article class="container1">
-                            <div class="heading2">
-                                <h1>Blog 2</h1>
-                            </div>
-
-                            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed corporis aperiam est aut quae facilis sequi obcaecati? Rem, debitis illo nesciunt sed, magni nulla itaque consequatur quos possimus tempora necessitatibus.</p>
-                        </article>
-                    </section>
-
-                    <section class="blog3">
-                        <img class="img3" src="../IMG/android.jpeg" alt=""/>
-
-                        <article class="container1">
-                            <div class="heading">
-                            <h1>Blog 3</h1>
-                            </div>
-                    
-                            <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aspernatur dolor ea consectetur asperiores reiciendis qui? Omnis voluptates ipsum, reiciendis sed excepturi ut voluptatem incidunt accusantium, soluta animi voluptas repellendus!
-                            </p>
-                        </article>
-                    </section>
-    
-                    <section class="blog4">
-                        <img class="img4" src="../IMG/web.png" alt=""/>
-
-                        <article class="container1">
-                            <div class="heading2">
-                                <h1>Blog 4</h1>
-                            </div>
-
-                            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed corporis aperiam est aut quae facilis sequi obcaecati? Rem, debitis illo nesciunt sed, magni nulla itaque consequatur quos possimus tempora necessitatibus.</p>
-                        </article>
-                    </section> 
-                
-                    <section class="blog5">
-                        <img class="img5" src="../IMG/laptop.jpeg" alt=""/>
-
-                        <article class="container2">
-                            <div class="heading2">
-                                <h1>Blog 5</h1>
-                            </div>
-
-                            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed corporis aperiam est aut quae facilis sequi obcaecati? Rem, debitis illo nesciunt sed, magni nulla itaque consequatur quos possimus tempora necessitatibus.</p>
-                        </article>
-                    </section> 
-         </div>
-     </main>
-
-     <footer>
-<!-- Links component  -->
-        <section id="links">
-            <div class="findme">
-                <h3>Find Me:</h3>
-                <a href="https://github.com/coreybarker" class="fa fa-github"></a>
-                <a href="https://www.linkedin.com/in/corey-barker-052444233/" class="fa fa-linkedin"></a>
-
+          <article class="container1">
+            <div class="heading">
+              <h1>Blog 1</h1>
             </div>
-        </section>
-   <!-- links component  -->
-   
-        ©Corey Barker 2022
-     </footer>
 
-</body>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+              aspernatur dolor ea consectetur asperiores reiciendis qui? Omnis
+              voluptates ipsum, reiciendis sed excepturi ut voluptatem incidunt
+              accusantium, soluta animi voluptas repellendus!
+            </p>
+          </article>
+        </section>
+
+        <section class="blog2">
+          <img class="img2" src="../IMG/ruby.jpeg" alt="" />
+
+          <article class="container1">
+            <div class="heading2">
+              <h1>Blog 2</h1>
+            </div>
+
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed
+              corporis aperiam est aut quae facilis sequi obcaecati? Rem,
+              debitis illo nesciunt sed, magni nulla itaque consequatur quos
+              possimus tempora necessitatibus.
+            </p>
+          </article>
+        </section>
+
+        <section class="blog3">
+          <img class="img3" src="../IMG/android.jpeg" alt="" />
+
+          <article class="container1">
+            <div class="heading">
+              <h1>Blog 3</h1>
+            </div>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+              aspernatur dolor ea consectetur asperiores reiciendis qui? Omnis
+              voluptates ipsum, reiciendis sed excepturi ut voluptatem incidunt
+              accusantium, soluta animi voluptas repellendus!
+            </p>
+          </article>
+        </section>
+
+        <section class="blog4">
+          <img class="img4" src="../IMG/web.png" alt="" />
+
+          <article class="container1">
+            <div class="heading2">
+              <h1>Blog 4</h1>
+            </div>
+
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed
+              corporis aperiam est aut quae facilis sequi obcaecati? Rem,
+              debitis illo nesciunt sed, magni nulla itaque consequatur quos
+              possimus tempora necessitatibus.
+            </p>
+          </article>
+        </section>
+
+        <section class="blog5">
+          <img class="img5" src="../IMG/laptop.jpeg" alt="" />
+
+          <article class="container2">
+            <div class="heading2">
+              <h1>Blog 5</h1>
+            </div>
+
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed
+              corporis aperiam est aut quae facilis sequi obcaecati? Rem,
+              debitis illo nesciunt sed, magni nulla itaque consequatur quos
+              possimus tempora necessitatibus.
+            </p>
+          </article>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <!-- Links component  -->
+      <section id="links">
+        <div class="findme">
+          <h3>Find Me:</h3>
+          <a href="https://github.com/coreybarker" class="fa fa-github"></a>
+          <a
+            href="https://www.linkedin.com/in/corey-barker-052444233/"
+            class="fa fa-linkedin"
+          ></a>
+        </div>
+      </section>
+      <!-- links component  -->
+
+      ©Corey Barker 2022
+    </footer>
+  </body>
 </html>

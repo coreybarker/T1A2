@@ -40,7 +40,7 @@ Home, Personal, Blog & Contact pages link to each other as well as to Github and
 ![Homepage dark mode](docs/ss2.jpg)
 ![Personalpage](docs/ss3.jpg)
 ![Blogpage](docs/ss5.jpg)
-![iPadBlogpage2](docs/ss8.jpg)
+![iPadBlogpage2](docs/ss82.jpg)
 ![Contactpage](docs/ss6.jpg)
 ![iPhoneContactpage](docs/ss9.jpg)
 
