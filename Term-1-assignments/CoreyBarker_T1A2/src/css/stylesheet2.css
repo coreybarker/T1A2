@@ -10,7 +10,7 @@ body {
   height: 100%;
   padding: 0.5rem 5rem;
 
-  /* dark theme component  */
+  /* LightDark toggle component  */
   transition: background 0.2s linear;
 }
 
@@ -69,7 +69,7 @@ nav.dark {
   color: white;
 }
 
-/* Dark theme component  */
+/* LightDark toggle component  */
 
 h1,
 h2,

@@ -1,3 +1,39 @@
+commit 3500a84b64f0dcd1c93be9bd44582ac722d1e315
+Author: coreybarker <cozybarker@gmail.com>
+Date:   Sat Mar 5 16:18:30 2022 +1100
+
+    Site finished with separate js file. Tab icons added and dark theme toggle fixed.
+
+commit 5ed89422eeef23643c64882a06e78e732b70636b
+Author: coreybarker <cozybarker@gmail.com>
+Date:   Sat Mar 5 10:52:52 2022 +1100
+
+    comments added for toggle. Readme updated
+
+commit b83d19d2f83d694b69d958e8c8ca3d8de20f4874
+Author: coreybarker <cozybarker@gmail.com>
+Date:   Fri Mar 4 18:12:00 2022 +1100
+
+    Readme almost done, ppt to be added plus fixes
+
+commit 973375c43733e0f4bcfe6b10f108210101898c32
+Author: coreybarker <cozybarker@gmail.com>
+Date:   Fri Mar 4 17:01:49 2022 +1100
+
+    dark mode added to each page, a few bugs to fix though
+
+commit b73c95f411a324832aa4527c84bf272bfac2a002
+Author: coreybarker <cozybarker@gmail.com>
+Date:   Thu Mar 3 18:46:49 2022 +1100
+
+    Readme document further in progress with sitemap and description of features add
+
+commit cf898f41ef9b790a398e8660069ce132e4ca256d
+Author: coreybarker <cozybarker@gmail.com>
+Date:   Thu Mar 3 17:40:55 2022 +1100
+
+    Started readme file and fixed contact padding issue
+
 commit 6bb6ea1e5ace80dc1775bda73920a166ebda4a1e
 Author: coreybarker <cozybarker@gmail.com>
 Date:   Thu Mar 3 15:52:53 2022 +1100

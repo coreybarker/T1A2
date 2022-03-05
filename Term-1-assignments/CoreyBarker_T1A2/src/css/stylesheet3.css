@@ -11,7 +11,7 @@ body {
   padding: 0.5rem 5rem;
   background-color: white;
 
-  /* dark theme component  */
+  /* LightDark toggle component  */
   transition: background 0.2s linear;
 }
 
@@ -81,7 +81,7 @@ nav {
   color: white;
 }
 
-/* Dark theme component  */
+/* LightDark toggle component  */
 
 h1,
 h2,
