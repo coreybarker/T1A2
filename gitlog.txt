@@ -1,3 +1,21 @@
+commit d78f9fce0f0cb7861eb76f04bfa399e5c0502c03
+Author: coreybarker <cozybarker@gmail.com>
+Date:   Sun Mar 6 11:29:48 2022 +1100
+
+    Re-orient git repo to correct folder
+
+commit 8be8046a0b694683062c3b450ebd3eac008e8516
+Author: coreybarker <cozybarker@gmail.com>
+Date:   Sun Mar 6 11:28:25 2022 +1100
+
+    add gitignore
+
+commit 512cc78317cf243989da0b6a36509b24647dfe4b
+Author: coreybarker <cozybarker@gmail.com>
+Date:   Sat Mar 5 21:40:13 2022 +1100
+
+    Accordion java fix
+
 commit 3500a84b64f0dcd1c93be9bd44582ac722d1e315
 Author: coreybarker <cozybarker@gmail.com>
 Date:   Sat Mar 5 16:18:30 2022 +1100
