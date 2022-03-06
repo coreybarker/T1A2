@@ -2,7 +2,7 @@
 ---
 https://coreybarkerportfolio.netlify.app/
 
-https://github.com/coreybarker/Portfolio/tree/main/Term-1-assignments/CoreyBarker_T1A2
+https://github.com/coreybarker/Portfolio
 
 ## Purpose
 The website is designed to act as a window into my life, professionally and personally for future clients and employers. The website expresses my design choices to provide an asthetically clean approach, without the loss of funtionality.
